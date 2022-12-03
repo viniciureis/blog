@@ -1,34 +1,212 @@
-.text{justify-content: center;justify-items: center;
-font-size: 18px;
-padding-right: 80px;
-padding-left: 80px;}
-.footer{background-color: aqua;
-background-size: cover;
-margin-left: -90px;
-height: 50px;
+body{width: 98.9%;
+  margin: 0px; 
+  padding: 0px;}
+ma{width: 70%;}
+.home{justify-content: flex-end; }
 
-}
-.texto1{font-size: 48px;
-  padding-left: 10px;
-padding-top: 100px;}
-.texto2{font-size: 30px;padding-left: 9px;}
-.back{background-image: url(imagne/medium-shot-man-wearing-vr-glasses.png);
-background-position: right   ; padding-top: 50px;
-background-size: 990px;
-background-repeat: no-repeat;
-padding-right: -1px;
-width: 1356px;
-background-color: rgba(250, 136, 136, 0.965);
-margin-left: -7px;
-height: 500px;}
-.button{background-color: purple;border-radius: 20px; color: white;font-size: 30px; margin-left: 40px;}
-.conteudo{font-size: 50px;margin-left: 300px;margin-top: -5px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.marketing{margin-left: 50px; border: 50em;}
-.gr{margin-left: 50px;margin-top: -2px; font-size: 20px;}
-.conteudo2{font-size: 30px; color: white; justify-content: center;
-font-size: 25px; margin-left: 46px; margin-right: 200px;padding-bottom: 20px;padding-top: 20px;}
-.red{background-color: rebeccapurple;margin-left: -20px; height: 199px;}
-  .conteudo3{color: aliceblue; font-size: 20px; margin-left: 40px;margin-top: -29px;
- ;}
-  .buttom{background-color: aqua; margin-left: 150px;font-size: 30px; margin-top: 20px;}
-  *body{min-width: 320px;}
+img{ position: bottom;}  
+.carr{height: 480px;}
+
+.ideia{text-align: center; font-size: 2rem; color: rgb(255, 255, 255);padding-top: 20px;margin-left: 4px;}
+
+.ib{ justify-self: center;display: flex;}
+
+.bac{background-image: url(imgs/bac.png); background-position: center; }
+
+.p{color: rgb(3, 3, 3); padding: 0px;}
+
+
+.leonar{justify-content: center; text-align: center;}
+.card{display: inline-block;  justify-content: start;margin-left: 1em; text-align: center;margin-top: 2em;margin-left: 2em;width: 10px;margin-bottom: 2rem; border: none;}
+
+.fisc{box-shadow: 2px 2px 2px 2px; border-top-left-radius: 15px; border-top-right-radius: 15px;}
+
+.img{width: 100%; height: 150px;border-top-left-radius: 15px; border-top-right-radius: 15px; }
+
+.bac1{background-color: blue; color: white;
+text-align: justif;padding-left: 30px; height: 420px;
+padding-top: 6%; width: 101.1%;}
+.pc{justify-content: flex-start; font-size: .8rem;}
+
+.dep{display: inline-block; padding: 10px 10px 10px;
+box-shadow: 2px 2px 2px 2px; }
+.grid{display: grid;
+grid-template-columns: 250px 250px 250px 250px;margin-bottom: 20px;
+gap: 80px;padding-left: 20px; }
+.pe{background-color: rgb(29, 43, 56); color: aliceblue;}
+
+.medo{width: 101.2%;
+  margin-left: -8px; 
+  background-color:  blue; 
+  color: white;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+  background-image: url(imgs/bac23.png); 
+  background-repeat: no-repeat;   
+  background-position: right center; 
+  background-size: contain;
+  background-attachment: fixed; }
+
+.bp{ text-align: center;}
+
+.dp{padding-left: 60px;}
+.gh{height: 500px;
+  padding-left: 20px;
+  padding-top: 20px;}
+
+.grid1{display: grid;
+grid-template-columns: 1fr 2fr;}
+
+.gr{padding-left:160px;width: 700px;}
+
+.if{background-position: bottom;
+   width: 790px;
+   margin-bottom: -26px;}
+
+.ft{margin-top: -105px;
+   padding-bottom: 870px; 
+   justify-content: flex-end; 
+   justify-items: flex-end;
+   padding-left: 300px;}
+
+.color{color: rgb(8, 8, 134); 
+  padding-left: 30px;
+  padding-top: 20px;}
+
+.wale{width: 8%;
+  padding-right: 40px;
+  margin-top: -40px;
+   margin-left: 40px;}
+
+.card1{display:inline-block; 
+  font-size: 0.5;
+  margin-left: -40px; }
+
+div #pro> h1{font-size: 20px;
+  padding-top: 40px;}
+
+.card2{display: inline; 
+  font-size: 0.5;}
+
+.wal{width: 8%;
+  padding-right: 40px;
+   margin-top: -40px;
+   margin-left:40px ;}
+
+   .color1{color: rgb(8, 8, 134); }
+
+   button{border-radius: 22px;
+     padding: 3px; 
+     margin-bottom: 48px;}
+
+   h5{padding-left: 20px;}
+
+   .compa{background-image: url(imgs/background.png);
+     background-position: right  ; 
+     background-repeat: no-repeat; 
+     background-size: cover;  
+     background-attachment: fixed; 
+     height: 400px;}
+
+  
+  .img1{width: 100%; border-radius: 40px;}
+
+  .empresa{background-color: black; color: white; display: grid;
+  grid-template-columns: 1fr 1fr;padding-left: 50px;}
+
+   .conteudo{text-align: center; padding-top: 20px; font-size: 70px;}
+
+   .ba1{background-color: rgba(128, 128, 128, 0.582);}
+
+   .grid12{display: grid; grid-template-columns: 1fr ;}
+
+   .i{font-size: 20px;}
+
+   .fel{text-align: end; margin-top: -463px;padding-right: 290px; justify-content: start; justify-items: start;}
+
+   .tr{padding-left: 50px;}
+
+   .tp{width:850px ; margin-top: -400px;  padding-left: 250px;}
+
+   .img12{width: 30%;}
+
+   .pi{font-size: 18px;color: black;padding-top: 30px;}
+
+   .gf{padding-left: 50px;}
+
+  .mr{margin-top: 80px;padding-left: 40px;}
+
+  a{text-decoration: none;}
+
+.der{padding: 10px 10px 10px 10px; text-align: center;}
+
+.df{padding-left: 40px;}
+
+.fp{padding-left: 30px;}
+
+.nos{font-size: 15px;padding-left: 40px;}
+
+.ght{padding-right: 85px;padding-top: 30px; }
+
+.conheca{background-color: blue; width: 100% ;
+  color: white;}
+  .fg{margin-top: 20px;}
+  div>a{color: aliceblue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media(max-width:500px) and
+   (max-width:900px){
+    body{width: 100%;}
+    main{margin: 0px 0px 0px 0px;}
+    .car{height: 30px;}
+    img{ width: 1%;  margin-right: 0px; padding-right: 0px;
+  
+    }
+    .grid{display: grid;
+      grid-template-columns: 250px }
+      .bac1{min-height: 560px;
+      grid-template-columns: 1fr;}
+      .gr{display: none;}
+     .wal,.wale{ display: none;  margin-left: 0 ;padding-right: 0;}
+     .ft{display: none;}
+    
+   
+     .card,.card1{justify-items: center; justify-self: center;justify-content: center; margin-right: 0px; padding-right: 0px;}
+     .card1#pro{justify-content: center; text-align: center;}
+     .medo{display: none;}
+     .dep1{display: none;}
+     .dep{margin-left: 60px;}
+     .empresa{display: grid;
+    grid-template-columns: 1fr; font-size: 15px; justify-content: center; text-align: center; padding-right: 20px; padding-left: 20px;}
+    .gh{display: none;}
+  }
+  
+  
