@@ -1,6 +1,7 @@
 body{width: 98.9%;
   margin: 0px; 
-  padding: 0px;}
+  padding: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 ma{width: 70%;}
 .home{justify-content: flex-end; }
 
@@ -34,6 +35,8 @@ box-shadow: 2px 2px 2px 2px; }
 grid-template-columns: 250px 250px 250px 250px;margin-bottom: 20px;
 gap: 80px;padding-left: 20px; }
 .pe{background-color: rgb(29, 43, 56); color: aliceblue;}
+.gt{text-align: end ; padding-right: 300px;}
+.ret{padding-top: 50px; padding-left: 50px;}
 
 .medo{width: 101.2%;
   margin-left: -8px; 
@@ -45,12 +48,16 @@ gap: 80px;padding-left: 20px; }
   background-repeat: no-repeat;   
   background-position: right center; 
   background-size: contain;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+text-align: end; }
 
 .bp{ text-align: center;}
-
+.ft3{width: 70%; margin-top: -40px;justify-content: flex-end; justify-items: flex-end;  justify-self: end;margin-left: 200px;}
+.ft1{width: 30%; margin-top: -230px; border-radius: 190px;}
 .dp{padding-left: 60px;}
-.gh{height: 500px;
+.gh{height: 400px; background-color:#372772;
+  height: 450px;
+  
   padding-left: 20px;
   padding-top: 20px;}
 
@@ -63,15 +70,15 @@ grid-template-columns: 1fr 2fr;}
    width: 790px;
    margin-bottom: -26px;}
 
-.ft{margin-top: -105px;
-   padding-bottom: 870px; 
-   justify-content: flex-end; 
-   justify-items: flex-end;
-   padding-left: 300px;}
+.ft{margin-top: -245px;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  width: 80%;
+}
+ 
 
-.color{color: rgb(8, 8, 134); 
-  padding-left: 30px;
-  padding-top: 20px;}
+.color{color: rgb(6, 134, 55); 
+  }
 
 .wale{width: 8%;
   padding-right: 40px;
@@ -104,10 +111,11 @@ div #pro> h1{font-size: 20px;
    .compa{background-image: url(imgs/background.png);
      background-position: right  ; 
      background-repeat: no-repeat; 
-     background-size: cover;  
-     background-attachment: fixed; 
+     background-size: cover;  width: 101.1%;
+     
      height: 400px;}
-
+    
+     .p{color: aliceblue; justify-items: start; justify-content: start;}
   
   .img1{width: 100%; border-radius: 40px;}
 
@@ -149,17 +157,33 @@ div #pro> h1{font-size: 20px;
 .ght{padding-right: 85px;padding-top: 30px; }
 
 .conheca{background-color: blue; width: 100% ;
+  
   color: white;}
   .fg{margin-top: 20px;}
   div>a{color: aliceblue;}
+  spam{font-size: 20px; font-family: i;}
 
+  .cv{height: 389px; background-image: url(imgs/SL-043021-42650-24.jpg); background-position:right; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;width: 101.1%;}
+  .propi{color: rgb(17, 223, 17); padding-top: 40px; text-align: center;margin-left: 100px;}
 
+  .marketing{border: 1px  black; width: 9%; background-color: black; color: white; display: inline-flex; margin-left: 200px; font-size: 20px;
+  padding-left: 15px; 
+padding-right: 5px; padding-top: 5px; padding-bottom: 5px;}
 
+    .storys{border: 1px solid black ; 
+      width: 20%; 
+      text-align: start;
+      color: antiquewhite; 
+      justify-items: center; padding: 8px;
+      justify-content: center;
+      margin-left: 200px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+       background-color: #80808074;}
 
+       .sr{background-color:black;margin-top: -40px  ; width: 101.1%;}
 
-
-
-
+.video{justify-items: end;padding-left: 800px; margin-top: -680px; padding-top: -900px; }
 
 
 
