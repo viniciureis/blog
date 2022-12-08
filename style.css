@@ -4,6 +4,7 @@ body{width: 98.9%;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 ma{width: 70%;}
 .home{justify-content: flex-end; }
+@import url(celular.css);
 
 img{ position: bottom;}  
 .carr{height: 480px;}
@@ -49,7 +50,9 @@ gap: 80px;padding-left: 20px; }
   background-position: right center; 
   background-size: contain;
   background-attachment: fixed;
-text-align: end; }
+text-align: end; 
+}
+
 
 .bp{ text-align: center;}
 .ft3{width: 70%; margin-top: -40px;justify-content: flex-end; justify-items: flex-end;  justify-self: end;margin-left: 200px;}
@@ -183,7 +186,7 @@ padding-right: 5px; padding-top: 5px; padding-bottom: 5px;}
 
        .sr{background-color:black;margin-top: -40px  ; width: 101.1%;}
 
-.video{justify-items: end;padding-left: 800px; margin-top: -680px; padding-top: -900px; }
+.video{justify-items: end;padding-left: 600px; margin-top: -680px;padding-bottom: 200px; }
 
 
 
@@ -206,7 +209,8 @@ padding-right: 5px; padding-top: 5px; padding-bottom: 5px;}
 
 
 
-   @media(max-width:500px) and
+
+   @media(max-width:690px) and
    (max-width:900px){
     body{width: 100%;}
     main{margin: 0px 0px 0px 0px;}
@@ -230,7 +234,14 @@ padding-right: 5px; padding-top: 5px; padding-bottom: 5px;}
      .dep{margin-left: 60px;}
      .empresa{display: grid;
     grid-template-columns: 1fr; font-size: 15px; justify-content: center; text-align: center; padding-right: 20px; padding-left: 20px;}
-    .gh{display: none;}
+  .gh{display: none;}
+    .video{display: none;}
+    .ft1{  display: none; }
+    .sr{padding-top: 140px;height: 800px; }
+    .storys{width: 40%;margin-left: 44px;}
+    .ft3{justify-content: center; margin-left: 10px;padding-top: 100px; width: 80%;}
+    .cv{width: 100%;}
   }
+  
   
   
