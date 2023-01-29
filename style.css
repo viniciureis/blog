@@ -84,8 +84,9 @@ grid-template-columns: 1fr 1fr;
    margin-bottom: -26px;}
 
 .ft{
-padding-top: 40px;
-  width: 100%;
+padding-top: 70px;
+  width: 1200px;
+  margin-bottom: -40px;
 }
  
 
@@ -235,7 +236,9 @@ ul a :hover{
 
    @media(max-width:690px) and
    (max-width:900px){
-    body{width: 100%;}
+    body{width: 100%;
+    padding: 0px;
+  margin: 0px;}
     main{margin: 0px 0px 0px 0px;}
     .car{height: 30px;}
     img{ width: 1%;  margin-right: 0px; padding-right: 0px;
@@ -263,6 +266,13 @@ ul a :hover{
     .storys{width: 40%;margin-left: 44px;}
     .ft3{justify-content: center; margin-left: 10px;padding-top: 100px; width: 80%;}
     .cv{width: 100%;}
+    .img124{
+      display: none;
+    }
+    .empresa1{
+      padding-left: 0px;
+      font-size: 10px;
+    }
   }
   
 
