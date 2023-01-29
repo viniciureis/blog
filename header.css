@@ -1,0 +1,17 @@
+.menu
+{display: flex;
+flex-wrap: wrap;
+list-style: none;
+gap: 30px;}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li:hover{
+    color: #372772;
+  }

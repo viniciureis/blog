@@ -1,10 +1,11 @@
-body{width: 98.9%;
+body{width: 99.5%;
   margin: 0px; 
   padding: 0px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 ma{width: 70%;}
 .home{justify-content: flex-end; }
 @import url(celular.css);
+
 
 img{ position: bottom;}  
 .carr{height: 480px;}
@@ -42,7 +43,7 @@ gap: 80px;padding-left: 20px; }
 .ret{padding-top: 50px; padding-left: 50px;}
 .bac12{background-color: blueviolet;color: white;}
 
-.medo{width: 101.2%;
+.medo{width: 100%;
   margin-left: -8px; 
   background-color:  blue; 
   color: white;
@@ -60,8 +61,7 @@ text-align: end;
 .empresa1{padding-left: 200px; font-size: 30px;}
 
 .sd{text-align: center;}
-ul{margin: 0px;margin-right: 160px ;}
-li{padding: 0px; margin: 0px;}
+
 
 .bp{ text-align: center;}
 .ft3{width: 70%; margin-top: -40px;justify-content: flex-end; justify-items: flex-end;  justify-self: end;margin-left: 200px;}
@@ -124,7 +124,7 @@ div #pro> h1{font-size: 20px;
    .compa{background-image: url(imgs/background.png);
      background-position: right  ; 
      background-repeat: no-repeat; 
-     background-size: cover;  width: 101.1%;
+     background-size: cover;  width: 100%;
      
      height: 400px;}
     
@@ -212,15 +212,9 @@ width: 101.1%;}
 
 
 
-ul{
-  list-style: none;
-  align-self: flex-start;margin-left: -40px;
+li:hover{
+  color: #372772;
 }
-
-ul a :hover{
-  color: #3700ff;
-}
-
 
 
 
@@ -244,6 +238,8 @@ ul a :hover{
     img{ width: 1%;  margin-right: 0px; padding-right: 0px;
   
     }
+  
+    
     .grid{display: grid;
       grid-template-columns: 250px }
      
@@ -265,7 +261,8 @@ ul a :hover{
     .sr{padding-top: 140px;height: 1050px;width: 100%; }
     .storys{width: 40%;margin-left: 44px;}
     .ft3{justify-content: center; margin-left: 10px;padding-top: 100px; width: 80%;}
-    .cv{width: 100%;}
+    .cv{width: 100%;
+    height: 500px;}
     .img124{
       display: none;
     }
@@ -273,8 +270,14 @@ ul a :hover{
       padding-left: 0px;
       font-size: 10px;
     }
+    .vr{
+      display: none;
+    }
+    .mp{
+      margin: 0px;
+    }
   }
-  
+ 
 
   
   @media(min-width:1200px){
@@ -290,5 +293,11 @@ ul a :hover{
     }
   }
   
-  
+  .mp{
+    background-color: rgb(155, 153, 149);
+    color: rgb(0, 0, 0);
+    margin-left: 500px;
+    padding: 40px;
+    margin-right: 500px;
+  }
   
