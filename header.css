@@ -2,16 +2,41 @@
 {display: flex;
 flex-wrap: wrap;
 list-style: none;
-gap: 30px;}
+gap: 30px;
+text-align: end;
+height: 100%;
+}
 header{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: rgba(130, 0, 252, 0.233);
+    width: auto 100%;
 }
-li:hover{
-    color: #372772;
+  .logo{
+    width: 35%;
+    justify-content: center;
+  }
+a{
+  color: rgb(27, 27, 150);
+}
+a:hover{
+  color: blue;
+}
+li{padding-right: 20px;
+font-size: 25px;}
+
+  @media(max-width:500px){
+    header{
+        
+        gap: 8px;
+    }
+    .menu{
+      display: flex;
+      
+      align-items: flex-end;
+      justify-content: right;
+    }
   }

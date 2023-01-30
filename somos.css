@@ -1,0 +1,93 @@
+.titulo{
+    font-size: 50px;
+    padding-left: 18px;
+    margin-bottom: 0px;
+}
+.pq{
+    font-size: 28px;padding-left: 18px;
+}
+span{
+    color: blueviolet;
+}
+.titulo1{
+    font-size: 50px;
+    padding-left: 218px;
+    margin-bottom: 0px;
+}
+.buttom{
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.apoi{
+width: 80%;
+margin-left: 0px;
+}
+
+.pir{
+    padding-right: 900px;
+    
+    font-size: 20px;
+    padding-left: 30px;
+}
+.gri{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+.anual{
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+   margin-top: -20px;
+   margin-left: -10px;
+}
+.anual > h1{
+    color: white;
+}
+.anual > li{
+    font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-bottom: 20px;
+  
+}
+
+.button{
+   font-size: 30px;
+   margin-top: 20px;
+   justify-self: unset;
+   padding: 10px;
+   border-color: white;
+   
+}
+.mensal{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-radius: 30px;
+    border-color: gray;
+    background-color: rgba(128, 128, 128, 0.541);
+    list-style: none;
+    padding: 10px;
+ 
+}
+li{
+    list-style: none;
+}
+.m{
+    color: red;
+    padding: 20px;
+    margin-top: 0px;
+}
+.mensal > ul >li{
+    padding-bottom: 5px;
+   
+}

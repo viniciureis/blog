@@ -1,0 +1,19 @@
+.mp{
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-right: 250px;
+}
+    
+p{
+    text-align: start;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    font-size: 35px;
+}
