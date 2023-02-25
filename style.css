@@ -262,9 +262,7 @@ li{
     .vr{
       display: none;
     }
-    .mp{
-      margin: 0px;
-    }
+  
   }
  
   .buttom{
@@ -287,11 +285,5 @@ li{
     }
   }
   
-  .mp{
-    background-color: rgb(155, 153, 149);
-    color: rgb(0, 0, 0);
-    margin-left: 500px;
-    padding: 40px;
-    margin-right: 500px;
-  }
-  
+ 
+ 

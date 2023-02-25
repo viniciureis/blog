@@ -39,4 +39,8 @@ font-size: 25px;}
       align-items: flex-end;
       justify-content: right;
     }
+    li{
+      font-size: 17px;
+      padding: 0;
+    }
   }

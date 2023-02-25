@@ -1,9 +1,6 @@
 .mp{
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin-left: 150px;
-    margin-right: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
     
 p{
@@ -16,4 +13,19 @@ span{
 }
 h1{
     font-size: 35px;
+}
+.img12{
+    height: 300px;
+    width: 100%;
+}
+.bacfe{
+   background: radial-gradient(purple black);
+    color: rgb(0, 0, 0);
+}
+@media(max-width:500){
+    .mp{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 30%;
+    }
 }
