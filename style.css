@@ -1,289 +1,106 @@
-body{width: 99.5%;
-  margin: 0px; 
-  padding: 0px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-ma{width: 70%;}
-
-
-@import "./somos.css";
-
-
-img{ position: bottom;}  
-.carr{height: 480px;}
-
-.ideia{text-align: center; font-size: 2rem; color: rgb(255, 255, 255);padding-top: 20px;margin-left: 4px;}
-
-.ib{ justify-self: center;display: flex;}
-
-
-
-.p{color: rgb(3, 3, 3); padding: 0px;}
-.b{
-padding-top: 100px;padding-left: 30px;
+.paragrafo{
+  font-size: 13px;
+  padding-left: 50px;
 }
+.fundo-video{
 
-.leonar{justify-content: center; text-align: center;}
-.card{display: inline-block;  justify-content: start;margin-left: 1em; text-align: center;margin-top: 2em;margin-left: 2em;width: 10px;margin-bottom: 2rem; border: none;}
+  position: absolute;
+  z-index: -1;
+  width: 98.71vw;
+  height:87.71vh;
+  overflow: hidden;
+  display: flex;
 
-.fisc{box-shadow: 2px 2px 2px 2px; border-top-left-radius: 15px; border-top-right-radius: 15px;}
-
-.img{width: 100%; height: 150px;border-top-left-radius: 15px; border-top-right-radius: 15px; }
-
-.bac1{background-color: blue; color: white;
-}
-.pc{justify-content: flex-start; font-size: .8rem;}
-
-.dep{display: inline-block; padding: 10px 10px 10px;
-box-shadow: 2px 2px 2px 2px; }
-.grid{display: grid;
-grid-template-columns: 250px 250px 250px 250px;margin-bottom: 20px;
-gap: 80px;padding-left: 20px; }
-.pe{background-color: rgb(29, 43, 56); color: aliceblue;}
-.gt{text-align: end ; padding-right: 300px;}
-.ret{padding-top: 50px; padding-left: 50px;}
-.bac12{background-color: blueviolet;color: white;}
-
-.medo{width: 100%;
-  margin-left: -8px; 
-  background-color:  blue; 
-  color: white;
-  padding-top: 30px; 
-  padding-bottom: 30px;
-  background-image: url(imgs/bac23.png); 
-  background-repeat: no-repeat;   
-  background-position: right center; 
-  background-size: contain;
-  background-attachment: fixed;
-text-align: end; 
-}
- 
-.fis{border: 1px solid; box-shadow: 1px 1px 1px 1px; background-color: #372772d5; color: white;}
-.empresa1{padding-left: 200px; font-size: 30px;}
-
-.sd{text-align: center;}
-
-
-.bp{ text-align: center;}
-.ft3{width: 70%; margin-top: -40px;justify-content: flex-end; justify-items: flex-end;  justify-self: end;margin-left: 200px;}
-.ft1{width: 30%; margin-top: -230px; border-radius: 190px;}
-.dp{padding-left: 60px;}
-.gh{height: 400px; background-color:#372772;
-  height: 450px;
-  
-  padding-left: 20px;
-  padding-top: 20px;}
-
-.grid1{display: grid;
-grid-template-columns: 1fr 1fr;
-}
-
-.gr{padding-left:160px;width: 700px;}
-
-.if{background-position: bottom;
-   width: 790px;
-   margin-bottom: -26px;}
-
-.ft{
-padding-top: 70px;
-  width: 1200px;
-  margin-bottom: -40px;
-}
- 
-
-.color{color: rgb(6, 134, 55); 
-  }
-
-.wale{width: 8%;
-  padding-right: 40px;
-  margin-top: -40px;
-   margin-left: 40px;}
-
-.card1{display:inline-block; 
-  font-size: 0.5;
-  margin-left: -40px; }
-
-
-
-.card2{display: inline; 
-  font-size: 0.5;}
-
-.wal{width: 8%;
-  padding-right: 40px;
-   margin-top: -40px;
-   margin-left:40px ;}
-
-   .color1{color: rgb(8, 8, 134); }
-
-   button{border-radius: 22px;
-     padding: 3px; 
-     margin-bottom: 48px;}
-
-   h5{padding-left: 20px;}
-
-   .compa{background-image: url(imgs/background.png);
-     background-position: right  ; 
-     background-repeat: no-repeat; 
-     background-size: cover;  width: 100%;
-     
-     height: 400px;}
-    
-     .p{color: aliceblue; justify-items: start; justify-content: start;}
-  
-  .img1{width: 100%; border-radius: 40px;}
-
-  .empresa{background-color: black; color: white; display: grid;
-  grid-template-columns: 1fr 1fr;padding-left: 50px;}
-
-   .conteudo{text-align: center; padding-top: 20px; font-size: 70px;}
-
-   .ba1{background-color: rgba(128, 128, 128, 0.582);}
-
-   .grid12{display: grid; grid-template-columns: 1fr ;}
-
-   .i{font-size: 20px;}
-
-   .fel{text-align: end; margin-top: -463px;padding-right: 290px; justify-content: start; justify-items: start;}
-
-   .tr{padding-left: 50px;}
-
-   .tp{width:850px ; margin-top: -400px;  padding-left: 250px;}
-
-   
-
-   .pi{font-size: 18px;color: black;padding-top: 30px;}
-
-   .gf{padding-left: 50px;}
-
-  .mr{margin-top: 80px;padding-left: 40px;}
-
-  a{text-decoration: none;}
-
-.der{padding: 10px 10px 10px 10px; text-align: center;}
-
-.df{padding-left: 40px;}
-
-.fp{padding-left: 30px;}
-
-.nos{font-size: 15px;padding-left: 40px;}
-
-.ght{padding-right: 85px;padding-top: 30px; }
-
-.conheca{background-color: blue; width: 100% ;
-  
-  color: white;}
-  .fg{margin-top: 20px;}
-
-
-  .cv{height: 399px; background-image: url(imgs/SL-043021-42650-24.jpg); background-position:right; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;width: 101.1%;
  }
-  .propi{color: rgb(17, 223, 17); padding-top: 40px; text-align: center;margin-left: 100px;}
+ .fundo-video .video{
+  height: 100vh;
+width: 1330px;
 
-  .marketing{border: 1px  black; width: 9%; background-color: black; color: white; display: inline-flex; margin-left: 200px; font-size: 20px;
-  padding-left: 15px; 
-padding-right: 5px; padding-top: 5px; padding-bottom: 5px;}
+ 
+ }
+ .fundo-video::after{
+  content: "";
+ 
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
+ 
 
-.img124{width: 540px; height: 550px;}
+background: linear-gradient(90deg,rgb(0, 0, 0)0%, rgba(0,0,0,0.8)50%, rgba(0,0,0,1)100% );
 
-   
+ }
+ .bg-body-tertiary{
+  background-color: purple;
+ }
+ header{
+  background-color: purple;
+ }
 
-       .sr{background-color:black;margin-top: -40px  ; width: 101.1%;}
-
-.video{justify-items: end;padding-left: 600px; margin-top: -680px;padding-bottom: 200px; }
-footer{background-color: gray;
-width: 101.1%;}
-
-.gird{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+ .paragrafo{
+  padding-top: 100px;
+  font-size: 13px;
+  padding-left: 50px;
+  color: white;
 }
 
+.img{
+  width: 60px;
+  margin-top: -20px;
 
-
-li{
-  font-size: 20px;
+}
+.butao{
+  border-radius: 40px;
+  padding: 10px;
+  background: purple;
+  border-color: purple;
 }
 
+.butao:hover{
+  background: palevioletred;
+  transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-delay: 1s;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-   @media(max-width:690px) and
-   (max-width:900px){
-    body{width: 100%;
-    padding: 0px;
-  margin: 0px;}
-    main{margin: 0px 0px 0px 0px;}
-    .car{height: 30px;}
-    img{ width: 1%;  margin-right: 0px; padding-right: 0px;
-  
-    }
-  
-    
-    .grid{display: grid;
-      grid-template-columns: 250px }
-     
-      .gr{display: none;}
-     .wal,.wale{ display: none;  margin-left: 0 ;padding-right: 0;}
-     .ft{display: none;}
-    
-   
-     .card,.card1{justify-items: center; justify-self: center;justify-content: center; margin-right: 0px; padding-right: 0px;}
-     .card1#pro{justify-content: center; text-align: center;}
-     .medo{display: none;}
-     .dep1{display: none;}
-     .dep{margin-left: 60px;}
-     .empresa{display: grid;
-    grid-template-columns: 1fr; font-size: 15px; justify-content: center; text-align: center; padding-right: 20px; padding-left: 20px;}
-  .gh{display: none;}
-    .video{display: none;}
-    .ft1{  display: none; }
-    .sr{padding-top: 140px;height: 1050px;width: 100%; }
-    .storys{width: 40%;margin-left: 44px;}
-    .ft3{justify-content: center; margin-left: 10px;padding-top: 100px; width: 80%;}
-    .cv{width: 100%;
-    height: 500px;}
-    .img124{
-      display: none;
-    }
-    .empresa1{
-      padding-left: 0px;
-      font-size: 10px;
-    }
-    .vr{
-      display: none;
-    }
-  
-  }
+}
  
-  .buttom{
-    font-size: 30px;
-   
-    color: black;
-  }
+.marg{
+  margin-top: 199px;
+}
+.soccer{
 
-  
-  @media(min-width:1200px){
-    .bac1{
-      height: 601px;
-    }
-    .ft{width: 80%;
-    margin-top: -75px;}
-    .cr{
-      max-width: 1800px;
-      align-items: center;
-      align-self:center;
-    }
-  }
-  
- 
- 
+ height: 200px;
+
+
+
+
+}
+.flex{
+  display: flex;
+ gap: -30px;
+}
+.a{
+  width: 0;
+}
+
+.marg1{
+  margin-left: 90px;
+}
+.card{
+border: none;
+  background: none;
+}
+.unico{
+ margin-left: -106px;
+ width: 60%;
+}
+.unico1{
+  width: 60%;
+}
+.marg1{
+  background-color: purple;
+ margin-left: -1px;
+}
+.video{
+
+
+}
