@@ -1,21 +1,80 @@
-.paragrafo{
-  font-size: 13px;
-  padding-left: 50px;
+body{
+  font-family: 'Poppins';
 }
-.fundo-video{
+.cabecalho{
+  display: flex;
+ justify-content: space-between;
+ padding: 30px;
+ max-width: 1440px;
+ margin: 0 auto;
+}
+.cabecalho .logo{
+  width: 65px;
+}
+.cabecalho .menu{
+
+  display: flex;
+  
+  align-items: center;
+  height: 100%;
+}
+
+.cabecalho nav li a{
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.cabecalho nav li a:hover{
+  background-color: purple;
+
+}
+.container{
+  max-width: 1440px;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 132px);
+  padding: 0px 30px 30px;
+}
+.container .imagem-titulo{
+  max-width: 500px;
+}
+.container .descricao{
+  color: #a8adb7;
+  width: 85%;
+  font-size: 18px;
+  margin:30px 0px ;
+}
+.container .butao-trailer{
+  background-color: purple;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
+}
+ .container .butao-trailer:hover{
+  transform: scale(1.1);
+ }
+ .fundo-video{
 
   position: absolute;
   z-index: -1;
-  width: 98.71vw;
-  height:87.71vh;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   display: flex;
-
+  justify-content: center;
  }
  .fundo-video .video{
   height: 100vh;
-width: 1330px;
-
  
  }
  .fundo-video::after{
@@ -23,84 +82,57 @@ width: 1330px;
  
   height: 100vh;
   width: 100vw;
-  position: relative;
+  position: absolute;
   top: 0;
- 
+  left: 0;
 
-background: linear-gradient(90deg,rgb(0, 0, 0)0%, rgba(0,0,0,0.8)50%, rgba(0,0,0,1)100% );
+background: linear-gradient(90deg,rgba(0,0,0,1)0%, rgba(0,0,0,0.8)50%, rgba(0,0,0,1)100% );
 
  }
- .bg-body-tertiary{
-  background-color: purple;
+ .modal{
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(52,52 ,50 , 0.749);
+  visibility: hidden;
  }
- header{
-  background-color: purple;
- }
-
- .paragrafo{
-  padding-top: 100px;
-  font-size: 13px;
-  padding-left: 50px;
-  color: white;
-}
-
-.img{
-  width: 60px;
-  margin-top: -20px;
-
-}
-.butao{
-  border-radius: 40px;
-  padding: 10px;
-  background: purple;
-  border-color: purple;
-}
-
-.butao:hover{
-  background: palevioletred;
-  transition: cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition-delay: 1s;
-
-}
- 
-.marg{
-  margin-top: 199px;
-}
-.soccer{
-
- height: 200px;
-
-
-
-
-}
-.flex{
+ .conteudo-modal{
+  
   display: flex;
- gap: -30px;
-}
-.a{
-  width: 0;
-}
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  border-radius: 5px;
+  gap: 15px;
+ }
+ .fechar-modal{
+  background-color: white;
+  color: #f03a17;
+  font-weight: bold;
+  font-size: 20px;
+  width: 40px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+ .modal iframe{
+  border: 0px;
+  width: 640px;
+  height: 360px;
+ }
 
-.marg1{
-  margin-left: 90px;
+.modal.aberto{
+  opacity: 1;
+  visibility: visible;
 }
-.card{
-border: none;
-  background: none;
-}
-.unico{
- margin-left: -106px;
- width: 60%;
-}
-.unico1{
-  width: 60%;
-}
-.marg1{
+.color{
+  color: rgb(255, 0, 0);
+}.butao-trailer{
   background-color: purple;
- margin-left: -1px;
 }
-.video{
 
-
-}
