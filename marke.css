@@ -1,3 +1,42 @@
+
+#foot a:hover{
+  background-color: blue;
+  color: white;
+  width: 70%;
+  border-radius: 60px;
+  padding: 10px;
+  
+  }
+  #foot, li+li{
+  margin-top: 15px;
+  }
+  
+  #foot,.font2{
+    padding-left: 20px;
+  }
+  footer,a{
+    color: black;
+  }
+  ul{
+    list-style: none;
+  }
+
+@media(max-width:500){
+  .mp{
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 30%;
+  }
+}
+spam{
+  font-weight: bolder;
+  font-size: 54px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
 .mp{
   padding-left: 30px;
   padding-right: 30px;
@@ -315,5 +354,14 @@ li{
     }
   }
   
- 
- 
+  footer{
+    width: 98.5vw;
+    background-color: purple;
+    margin-left: -9px;
+    margin-bottom: -20px;
+  }
+  
+  .img12{
+    width: 68%;
+    height: 80%;
+  }

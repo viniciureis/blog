@@ -1,138 +1,15 @@
-body{
-  font-family: 'Poppins';
-}
-.cabecalho{
-  display: flex;
- justify-content: space-between;
- padding: 30px;
- max-width: 1440px;
- margin: 0 auto;
-}
-.cabecalho .logo{
-  width: 65px;
-}
-.cabecalho .menu{
-
-  display: flex;
+  #foot, li+li{
+  margin-top: 15px;
+  }
   
-  align-items: center;
-  height: 100%;
-}
+  #foot,.font2{
+    padding-left: 20px;
+  }
+  footer,a{
+    color: black;
+  }
+  ul{
+    list-style: none;
+  }
 
-.cabecalho nav li a{
-  font-weight: bold;
-  color: white;
-  font-size: 25px;
-  padding: 10px 20px;
-  border-radius: 50px;
-  transition: 0.3s;
-}
-.cabecalho nav li a:hover{
-  background-color: purple;
-
-}
-.container{
-  max-width: 1440px;
-
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  height: calc(100vh - 132px);
-  padding: 0px 30px 30px;
-}
-.container .imagem-titulo{
-  max-width: 500px;
-}
-.container .descricao{
-  color: #a8adb7;
-  width: 85%;
-  font-size: 18px;
-  margin:30px 0px ;
-}
-.container .butao-trailer{
-  background-color: purple;
-  color: white;
-  padding: 15px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-  text-transform: uppercase;
-  transition: 0.5s all ease-in-out;
-}
- .container .butao-trailer:hover{
-  transform: scale(1.1);
- }
- .fundo-video{
-
-  position: absolute;
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
- }
- .fundo-video .video{
-  height: 100vh;
  
- }
- .fundo-video::after{
-  content: "";
- 
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-background: linear-gradient(90deg,rgba(0,0,0,1)0%, rgba(0,0,0,0.8)50%, rgba(0,0,0,1)100% );
-
- }
- .modal{
-
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  background-color: rgba(52,52 ,50 , 0.749);
-  visibility: hidden;
- }
- .conteudo-modal{
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  border-radius: 5px;
-  gap: 15px;
- }
- .fechar-modal{
-  background-color: white;
-  color: #f03a17;
-  font-weight: bold;
-  font-size: 20px;
-  width: 40px;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 10px;
- }
- .modal iframe{
-  border: 0px;
-  width: 640px;
-  height: 360px;
- }
-
-.modal.aberto{
-  opacity: 1;
-  visibility: visible;
-}
-.color{
-  color: rgb(255, 0, 0);
-}.butao-trailer{
-  background-color: purple;
-}
-
