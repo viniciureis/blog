@@ -93,5 +93,36 @@ background: linear-gradient(90deg,rgba(0,0,0,1)8%, rgba(0,0,0,0.8)50%, rgba(0,0,
  
 
 
+ h3{
+  color: blueviolet;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .espacamento{
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
 
+.man{
+  width: 80%;
+  padding-top: 20px;
+margin-left: 100px;
+border-radius: 35px;
+}
 
+.bu{
+  background-color: purple;
+  color: white;
+  padding: 13px;
+  border-color: purple;
+  font-size: 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.bu:hover{
+  background-color: red;
+  border-color: red;
+}

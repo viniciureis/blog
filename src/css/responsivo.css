@@ -6,7 +6,7 @@
     height: auto;
   }
   .container .mario{
-    max-width:100%;
+    max-width:99%;
   }
   .container .informacoes{
   display: flex;
