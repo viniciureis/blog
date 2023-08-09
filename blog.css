@@ -1,0 +1,303 @@
+.header-bg {
+
+  width: 101.2%;
+  margin-left: -8px;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+   margin-top: -10px;
+   background-color: black;
+  
+   
+  }
+  .border1{
+    border: 1px solid black;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 20px;
+   
+  }
+  .cabecalho nav li a:hover{
+    background-color: purple;
+  
+  }
+  
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding-right: 20px;
+    
+   
+  }
+
+  .conte{
+    text-align: center;
+  }
+.img{
+  width: 200px;
+}
+.para{
+  font-size: 15px;
+}
+.div{
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr 1fr;
+  gap: 50px;
+}
+  footer{
+    background-color: black;
+    width: 101.3%;
+    margin-left: -10px;
+    height: 200px;
+  }
+  .grid1{
+    display: grid;
+    grid-template-columns: 300px 200px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(169, 139, 240);
+    height: 200px;
+  }
+  
+  .pg{
+    color: white;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+    .fonte{
+      color: white;
+      padding-top: 50px;
+      font-size: 30px; padding-left: 20px;
+    }
+   
+    
+    .happy{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+   
+   
+    
+    
+    .grid1{
+      display: grid;
+      grid-template-columns: 300px 200px;
+    }
+   
+  
+  
+    
+    .logo{
+      height: 100px;
+      opacity: 0.5;
+    }
+    
+    footer{
+     
+      width: 101.3%;
+      margin-left: -10px;
+      height: 450px;
+      margin-top: 50px;
+      background-color: rgb(169, 139, 240);
+      margin-bottom: -20px;
+    }
+    .logo1{
+      width: 30%;
+    }
+    .font2{
+      color: aliceblue;
+    }
+    .pg{
+      font-size: 15px;
+      margin-left: -20px;
+    }
+    .grid2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+    
+    .logo12{
+      width: 14%;
+    padding-left:20px ;
+    }
+    .pg{
+      color: white;
+    }
+    .border1:hover{
+      background-color: blue;
+    }
+ 
+    .logo2{
+     width: 30%;
+    }
+    .cabecalho{
+      display: flex;
+     justify-content: space-between;
+     padding: 30px;
+    
+   
+    }
+    .cabecalho .logo{
+      width: 55px;
+    }
+    .cabecalho .menu{
+    
+      display: flex;
+      
+      align-items: center;
+    
+    }
+    
+    .cabecalho nav li a{
+      font-weight: bold;
+      color: white;
+      font-size: 25px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+    .cabecalho nav li a:hover{
+      background-color: purple;
+    
+    }
+    header{
+      background-color: black;
+    margin-left: -8px;
+    width: 95.1vw;margin-top: -10px;
+    }
+    li,a{text-decoration: none;}
+    @media(min-width:300px) and ( max-width:511px){
+    .div{
+      display: grid;
+     grid-template-columns: 1fr;
+      padding-left: 30px;
+    }
+    .logo{
+      display: none;
+    }
+    .grid2{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .van{
+      display: none;
+        }
+    
+        
+       .happy1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+       }
+       .imga{
+        height: 590px;
+        
+       }
+       .logo{
+       display: none;
+       
+       }
+       .header-menu{
+        font-size: 20px;
+        margin-top: -10px;
+        padding-top: -30px;
+       }
+       li{
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+       }
+       ul{
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+       }
+       .grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+       .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+     
+       }
+       .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+       }
+       .bg{
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+       .happy{
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+       .gf{
+        width: 300px;
+        padding-left: 30px;
+       }
+       .gf1{
+        padding-left: 50px;
+       }
+      p{
+        padding-left: 5px;
+      }
+      .a{
+        padding-top: 30px;
+      }
+      .header{
+        width: 100vw;
+      }
+      footer{
+        background-color: rgb(169, 139, 240);
+        width: 97%;
+        height:940px ;
+        padding-left: 30px;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

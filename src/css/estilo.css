@@ -126,3 +126,7 @@ border-radius: 35px;
   background-color: red;
   border-color: red;
 }
+.fundo{
+  background: url(../imgs/13167.jpg);
+  background-image: url(../imgs);
+}

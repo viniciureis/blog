@@ -365,3 +365,7 @@ li{
     width: 68%;
     height: 80%;
   }
+  .tere{
+    text-decoration: underline;
+    color: purple;
+  }
