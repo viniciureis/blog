@@ -289,7 +289,33 @@
       }
   }
   
+  .fundo-video{
+
+    position: absolute;
+    z-index: -1;
+    width: 99.vw;
+    height: 9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-left: -8px;
+   }
+   .fundo-video .video{
+    height: 300px;
+   width: 100vw;
+   }
+   .fundo-video::after{
+    content: "";
+   
+    height: 99vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
   
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0.413)8%, rgba(0,0,0,0.8)50%, rgba(0, 0, 0, 0.496)95% );
+  
+   }
   
   
   
