@@ -127,4 +127,33 @@ header{
     .margin{
       margin-bottom: 500px;
     }
+  }@media( min-width: 300px){
+ 
+ 
+
+    .cabecalho nav li a{
+      font-size: 9px;
+      padding: 10px;
+      display: flex;
+  
+    
+    
+    }
+    .cabecalho{
+      margin-left: -100px;
+      padding: 0px;
+    }
+  .fundo,.fle,.fundo{
+    display: flex;
+  flex-direction: column;
+  }
+  .imf2{
+    margin-top: 200px;
+  }
+  .imf4{
+    margin-left: 50px;
+  }
+  .fundo{
+    height: 2000px;
+  }
   }
