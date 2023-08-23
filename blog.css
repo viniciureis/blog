@@ -293,7 +293,7 @@
 
     position: absolute;
     z-index: -1;
-    width: 99.vw;
+    width: 99vw;
     height: 9;
     overflow: hidden;
     display: flex;

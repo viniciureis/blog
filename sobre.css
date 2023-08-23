@@ -56,7 +56,7 @@ color: white;
   color: white;padding-top: 20px;
 }
 .icone{
-  width: 70%;
+  width: 67%;
   padding-left: 30px;
  
 }
@@ -77,6 +77,31 @@ color: white;
   font-size: 2.2rem;
   margin-top: -1px;padding-top: 20px;padding-left: 20px;
 }
+.img{
+  width: 55%;
+}
+.button121{
+  background: black;
+  color: white;
+  margin-left: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  }
+
+  .button121:hover{
+    background: purple;
+    border-color: purple;}
+    .grid2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+    .logo12{
+      padding-top: 20px;
+    }
+    footer{
+     margin-bottom: -20px;
+    }
 @media (min-width:300px) and (max-width:500px){
   *{
     margin-left: 0px;

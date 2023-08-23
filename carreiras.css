@@ -1,6 +1,130 @@
-header{
-  height: 50px;
-}
+
 p{
-  color: wheat;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;padding-left: 20px;
+  padding-top: 20px;
+} .grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+  margin-left: -8px;
+  padding-left: 20px;
+gap: 30px;
+}body{
+  font-family: 'Poppins';
 }
+.cabecalho{
+  display: flex;
+ justify-content: space-between;
+ padding: 30px;
+ max-width: 1440px;
+ margin: 0 auto;
+ margin-left: -8px;
+ width: 93.96vw;
+ margin-top: -20px;
+}
+.cabecalho .logo{
+  width: 55px;
+}
+.cabecalho .menu{
+
+  display: flex;
+  
+  align-items: center;
+  height: 100%;
+}
+
+.cabecalho nav li a{
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.cabecalho nav li a:hover{
+  background-color: purple;
+
+} .fundo-video{
+
+  position: absolute;
+  z-index: -1;
+  width: 98.74vw;
+  height: 99vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-left: -7.8px;
+ }
+ .fundo-video .video{
+  height: 100vh;
+ width: 100vw;
+ }
+ .fundo-video::after{
+  content: "";
+ 
+  height: 99vh;
+  width: 99vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+background: linear-gradient(90deg,rgb(86, 1, 132)8%, rgba(104, 1, 173, 0.8)50%, rgb(67, 0, 111)825% );
+ }
+.mario{
+  width: 99vw;
+}
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    padding-left: 20px;
+  gap: 30px;
+  }
+  .logo12{
+    padding-top: 20px;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+.logo12{
+  padding-top: 20px;
+  width: 25%;
+  padding-left: 20px;
+}
+#footer li{
+  margin-left: -25px;
+}
+footer{
+  width: 98.1vw;
+  margin-bottom: -20px;
+}
+.flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+header{
+  background-color: black;
+  margin-left: -290px;
+  padding-left: 0;
+
+  }
+  .margin{
+    margin-bottom: 200px;
+  }
+  a,ul,li{
+    text-decoration: none;
+    list-style: none;
+  }
+  @media( min-width:1500px){
+    .cabecalho{
+      width: 5000px;
+     max-width: 1669px;
+    }
+    .margin{
+      margin-bottom: 500px;
+    }
+  }
