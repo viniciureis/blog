@@ -286,16 +286,6 @@ li{
 
 
 
-   @media(max-width:690px) and
-   (max-width:900px){
-    body{width: 100%;
-    padding: 0px;
-  margin: 0px;}
-    main{margin: 0px 0px 0px 0px;}
-    .car{height: 30px;}
-    img{ width: 1%;  margin-right: 0px; padding-right: 0px;
-  
-    }
   
     
     .grid{display: grid;
@@ -332,7 +322,7 @@ li{
       display: none;
     }
   
-  }
+
  
   .buttom{
     font-size: 30px;
@@ -341,19 +331,7 @@ li{
   }
 
   
-  @media(min-width:1200px){
-    .bac1{
-      height: 601px;
-    }
-    .ft{width: 80%;
-    margin-top: -75px;}
-    .cr{
-      max-width: 1800px;
-      align-items: center;
-      align-self:center;
-    }
-  }
-  
+
   footer{
     width: 98.5vw;
     background-color: purple;

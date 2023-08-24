@@ -447,7 +447,7 @@
       width: 97.9vw;
      }
     
-    }@media( min-width: 300px){
+    }@media( min-width: 300px) and (max-width:500px){
  
  
 

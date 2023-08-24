@@ -87,7 +87,7 @@ a{
 }
 .card:hover{
   background-color: blue;
-}@media( min-width: 300px){
+}@media( min-width: 300px) and (max-width:500px){
  
  
 

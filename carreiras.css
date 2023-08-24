@@ -119,15 +119,8 @@ header{
     text-decoration: none;
     list-style: none;
   }
-  @media( min-width:1500px){
-    .cabecalho{
-      width: 5000px;
-     max-width: 1669px;
-    }
-    .margin{
-      margin-bottom: 500px;
-    }
-  }@media( min-width: 300px){
+ 
+  @media( min-width: 300px)and (max-width:500px){
  
  
 
