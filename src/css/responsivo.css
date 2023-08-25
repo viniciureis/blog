@@ -1,33 +1,7 @@
-@media(max-width:1200px){
 
-  .container{
-    flex-wrap:  wrap;
-    justify-content: center;
-    height: auto;
-  }
-  .container .mario{
-    max-width:99%;
-  }
-  .container .informacoes{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  }
-  .container .descricao{
-    color: white;
-    text-align: center;
-  }
-  }
  
-  @media(max-width:500px){
-    *{
-      margin: 0px;
-      padding: 0px;
-    }
-  
-  }
 
-@media( min-width: 300px){
+@media( min-width: 300px) and (max-width:500px) {
  
  
 

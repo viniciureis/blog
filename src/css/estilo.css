@@ -183,17 +183,12 @@ border-radius: 35px;
   }
   #footer li{
     margin-left: -35px;
-  }@media( min-width: 300px){
+  }@media( min-width: 300px) and (max-width:500px){
  
- 
-
     .cabecalho nav li a{
       font-size: 9px;
       padding: 10px;
       display: flex;
-  
-    
-    
     }
     .cabecalho{
       margin-left: -100px;
