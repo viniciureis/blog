@@ -113,13 +113,38 @@ header{
 
   }
   .margin{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    color: black;
   }
   a,ul,li{
     text-decoration: none;
     list-style: none;
   }
+  .para{
+    color: black;
+  }
+  .img2{
+    width: 99%;
+    border-radius: 20px;margin-top: 20px;
+  }
+.img1{
+  width: 99%;
+  height: 300px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
  
+.back{
+  background-color: rgb(136, 0, 255);
+  width: 101.2%;
+  margin-left: -10px;
+  padding-top: 20px;
+color: white;
+}
+.img3{
+  width: 99%;
+  height: 400px;
+}
   @media( min-width: 300px)and (max-width:500px){
  
  
