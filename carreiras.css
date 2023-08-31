@@ -146,7 +146,7 @@ color: white;
   height: 400px;
 }
 .margin1{
-  margin-top: 200px;
+  margin-top: 250px;padding-bottom: 30px;
 }
   @media( min-width: 300px)and (max-width:500px){
  
