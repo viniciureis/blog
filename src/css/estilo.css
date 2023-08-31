@@ -112,7 +112,12 @@ background: linear-gradient(90deg,rgba(0,0,0,1)8%, rgba(0,0,0,0.8)50%, rgba(0,0,
 margin-left: 100px;
 border-radius: 35px;
 }
-
+.man1{
+  width: 80%;
+  padding-top: 20px;
+  border-radius: 45px;
+  padding-bottom: 30px;padding-left: 100px;
+}
 .bu{
   background-color: purple;
   color: white;
