@@ -108,8 +108,7 @@ footer{
 }
 header{
   background-color: black;
-
-
+ 
   }
   .margin{
     margin-bottom: 100px;
@@ -186,4 +185,37 @@ transform: rotate(30);padding-left: 10px;
 #line a:hover{
   padding-top: 4px;
   text-decoration: underline;
+}
+.cabecalho{
+  display: flex;
+ justify-content: space-between;
+ padding: 30px;
+ max-width: 1440px;
+ margin: 0 auto;
+ margin-left: -8px;
+ width: 93.96vw;
+ margin-top: -20px;
+}
+.cabecalho .logo{
+  width: 55px;
+}
+.cabecalho .menu{
+
+  display: flex;
+  
+  align-items: center;
+  height: 100%;
+}
+
+.cabecalho nav li a{
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.cabecalho nav li a:hover{
+  background-color: purple;
+
 }
