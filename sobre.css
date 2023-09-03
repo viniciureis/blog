@@ -102,6 +102,26 @@ color: white;
     footer{
      margin-bottom: -20px;
     }
+    .linha{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+    }
+     
+    .linha h1{
+      padding-left: 150px;
+    }
+    .linha img{
+      width: 40%;
+      padding-left: 90px;
+    }
+    video{
+    width: 94%;
+    padding-left: 20px;
+    }
+    .paragrafo12{
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
 @media (min-width:300px) and (max-width:500px){
   *{
     margin-left: 0px;
