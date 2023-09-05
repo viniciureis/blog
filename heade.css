@@ -198,9 +198,13 @@ color: white;
   text-align: center;
  color: white;
 }
-.clientes{
+body{
   background-color: purple;
-  width: 99.7vw;
+  
+}
+.centere{
+  padding-left: 50px;
+  color: white;
 }
 .img{
   width: 8%;padding-left: 20px;
