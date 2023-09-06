@@ -17,16 +17,22 @@
    
   }
   .border1{
-    border: 1px solid black;
-    background: #fff;
     padding: 10px;
-    box-shadow: 2px 2px 2px black;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px ;
     border-radius: 20px;
-   
   }
+  
   .cabecalho nav li a:hover{
     background-color: purple;
   
+  }
+  .img2{
+    width: 270px;margin-top: -11px;
+    margin-left: -10px;
+    height: 210px;
+    border-radius: 20px;
+   margin-right: -10px;
   }
   
   .header-menu {
@@ -190,6 +196,9 @@
     .cabecalho nav li a:hover{
       background-color: purple;
     
+    }
+    body{
+      background-color: rgba(128, 0, 128, 0.575);
     }
     header{
       background-color: black;
