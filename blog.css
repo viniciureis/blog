@@ -58,6 +58,7 @@
   display: grid;
   grid-template-columns: 1fr  1fr 1fr 1fr;
   gap: 50px;
+  margin-right: 10px;
 }
   footer{
     background-color: black;
@@ -203,7 +204,7 @@
     header{
       background-color: black;
     margin-left: -8px;
-    width: 95.1vw;margin-top: -10px;
+    width: 95.5vw;margin-top: -10px;
    
     }
     .cabecalho{
