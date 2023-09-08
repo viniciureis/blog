@@ -136,7 +136,7 @@ top: 0;
     color: black;
   }
   .img2{
-    width: 99%;
+    width:7%;
     border-radius: 20px;margin-top: 20px;
   }
 .img1{
@@ -216,7 +216,7 @@ body{
   
 }
 .img2{
-  width: 280px;margin-top: -11px;
+  width: 260px;margin-top: -11px;
   margin-left: -11px;
   height: 180px;
 }
@@ -241,6 +241,9 @@ justify-content: center;
 .button:hover{
   background-color: blue;
   border-color: blue;
+}
+.boder{
+  width: 240px;
 }
   @media( min-width: 300px)and (max-width:500px){
  
