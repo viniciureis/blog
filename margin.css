@@ -1,0 +1,29 @@
+.margin{
+padding-top: 200px;
+}
+.pi{
+  margin-left: -630px;
+  font-size: 2.5rem;
+}
+span{
+  color: white;
+}
+.flex{
+  padding-left:0px;
+}
+.margi{
+  margin-top: 110px;
+}
+.img2{
+  margin-left: 120px;
+}
+#fle p{
+  font-size: 1rem;
+  color: black;
+  margin-left: -20px;margin-top: -40px;
+ 
+}
+footer{
+  margin-bottom: -120px;
+  margin-top: 20px;
+}
