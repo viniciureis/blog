@@ -12,7 +12,7 @@ span{
   padding-left:0px;
 }
 .margi{
-  margin-top: 110px;
+  margin-top: 150px;
 }
 .img2{
   margin-left: 120px;
@@ -26,4 +26,17 @@ span{
 footer{
   margin-bottom: -120px;
   margin-top: 20px;
+}
+button{
+  background-color: red;
+  border-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+button:hover{
+  background-color: blue;
+  border-color: blue;
+  transition: 1s;
+
 }
