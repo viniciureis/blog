@@ -40,3 +40,9 @@ button:hover{
   transition: 1s;
 
 }
+@media(min-width:1500px){
+ 
+    .margi{
+      margin-top: 370px;
+    }
+  }

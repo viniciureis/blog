@@ -275,3 +275,9 @@ justify-content: center;
     height: 2000px;
   }
   }
+  @media(min-width:1500px){
+  .cabecalho{
+
+    width: 99vw;
+    }
+  }
