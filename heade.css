@@ -111,6 +111,7 @@ header {
 
   background: #000000;
   position: fixed;
+  height: 30px;
  
 top: 0;
  }
@@ -244,6 +245,9 @@ justify-content: center;
 }
 .boder{
   width: 240px;
+}
+ul,li{
+  margin-top: -5px;padding: 10px;
 }
   @media( min-width: 300px)and (max-width:500px){
  
