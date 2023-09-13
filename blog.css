@@ -21,6 +21,7 @@
     background-color: white;
     box-shadow: 4px 4px 4px 4px ;
     border-radius: 20px;
+    width: 68%;
   }
   
   .cabecalho nav li a:hover{
