@@ -393,10 +393,6 @@
         width: 500px;
       }
    
-      .grid3{
-        display: grid;
-        grid-template-columns: 1fr;
-      }
       .menu{
         margin-top: -30px;
       }
