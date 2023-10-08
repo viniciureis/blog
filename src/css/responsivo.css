@@ -47,4 +47,7 @@ flex-direction: column;
   grid-template-columns: 1fr;
   padding-top: 20px;
 }
+.mario{
+  display: none;
+}
 }

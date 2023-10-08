@@ -212,4 +212,7 @@ border-radius: 35px;
   .fundo{
     height: 200px;
   }
+  .mario{
+    display: none;
+  }
   }
