@@ -121,8 +121,9 @@
   
     
     .logo{
-      height: 100px;
+      height: 60px;
       opacity: 0.5;
+      margin-top:-20px ;
     }
     
   
@@ -192,7 +193,7 @@
     header{
       background-color: black;
     margin-left: -8px;
-    width: 95.5vw;margin-top: -10px;
+    width: 96.5vw;margin-top: -10px;
     height: 30px;
    
     }
@@ -258,7 +259,37 @@
     margin-bottom: -20px;
     margin-top: 100px;
   }
-    @media(min-width:300px) and ( max-width:511px){
+    
+  
+  .fundo-video{
+
+    position: absolute;
+    z-index: -1;
+    width: 99vw;
+    height: 9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-left: -8px;
+   }
+   .fundo-video .video{
+    height: 300px;
+   width: 100vw;
+   }
+   .fundo-video::after{
+    content: "";
+   
+    height: 99vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0.413)8%, rgba(0,0,0,0.8)50%, rgba(0, 0, 0, 0.496)95% );
+  
+   }
+  
+   @media(min-width:300px) and ( max-width:511px){
     .div{
       display: grid;
      grid-template-columns: 1fr;
@@ -342,38 +373,21 @@
       .header{
         width: 100vw;
       }
+      .cabecalho nav li a{
+        font-size: 9px;
+        padding: 10px;
+        display: flex;
+    
+      
+      
+      }
+      .cabecalho{
+        margin-left: -100px;
+        padding: 0px;
+      }
+      
    
   }
-  
-  .fundo-video{
-
-    position: absolute;
-    z-index: -1;
-    width: 99vw;
-    height: 9;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    margin-left: -8px;
-   }
-   .fundo-video .video{
-    height: 300px;
-   width: 100vw;
-   }
-   .fundo-video::after{
-    content: "";
-   
-    height: 99vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-  
-  background: linear-gradient(90deg,rgba(0, 0, 0, 0.413)8%, rgba(0,0,0,0.8)50%, rgba(0, 0, 0, 0.496)95% );
-  
-   }
-  
-  
   
   
   

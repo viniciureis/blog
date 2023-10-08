@@ -68,6 +68,10 @@ footer{
  width: 98.1vw;
 
 }
+.foto{
+  width:100%;
+  height: 350px;
+}
 .cabecalho{
   display: flex;
  justify-content: space-between;

@@ -177,4 +177,7 @@ color: white;
   .fundo{
     height: 2000px;
   }
+  header{
+    width: 100vw;
+  }
   }
