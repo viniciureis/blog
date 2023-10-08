@@ -382,12 +382,15 @@
       
       }
       .cabecalho{
-        margin-left: -100px;
+        margin-left: -50px;
         padding: 0px;
       }
       .grid3{
         display: grid;
         grid-template-columns: 1fr;
+      }
+      header{
+        width: 100vw;
       }
    
   }
