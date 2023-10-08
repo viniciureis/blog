@@ -303,3 +303,8 @@ color: white;
   background-color: purple;
 
 }
+@media( min-width: 300px) and (max-width:500px) {
+  #p{
+    margin-left: 0px;
+  }
+}
