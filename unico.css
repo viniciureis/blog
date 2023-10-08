@@ -312,4 +312,23 @@ color: white;
     display: grid;
     grid-template-columns: 1fr ;
   }
+  .cabecalho nav li a{
+    font-size: 9px;
+    padding: 10px;
+    display: flex;
+
+  
+  
+  }
+  .cabecalho{
+    margin-left: -50px;
+    padding: 0px;
+  }
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  header{
+    width: 800px;
+  }
 }
