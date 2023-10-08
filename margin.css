@@ -46,3 +46,14 @@ button:hover{
       margin-top: 470px;
     }
   }
+  @media (min-width: 300px) and (max-width: 500px){
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    .margi{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
