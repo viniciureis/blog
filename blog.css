@@ -511,7 +511,7 @@
         grid-template-columns: 1fr;
       }
       header{
-        width: 1200px;
+        width: 100vw
       }
    
     
