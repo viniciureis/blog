@@ -321,14 +321,16 @@ color: white;
   
   }
   .cabecalho{
-    margin-left: -50px;
+    margin-left: -10px;
     padding: 0px;
+    width: 100vw;
+    height: 100px;
   }
   .grid3{
     display: grid;
     grid-template-columns: 1fr;
   }
   header{
-    width: 800px;
+    width: 1200px;
   }
 }
