@@ -282,4 +282,8 @@ transform: rotate(30);padding-left: 10px;
       flex-direction: row;
       font-size: 30px;
      }
+     .border{
+      display: grid;
+      grid-template-columns: 1fr;
+     }
 }
