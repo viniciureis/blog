@@ -161,7 +161,7 @@ color: white;
     
     }
     .cabecalho{
-      margin-left: -100px;
+      margin-left: -5px;
       padding: 0px;
     }
   .fundo,.fle,.fundo{
@@ -179,5 +179,10 @@ color: white;
   }
   header{
     width: 100vw;
+  }
+  .flex{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
   }
   }
