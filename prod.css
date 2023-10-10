@@ -219,6 +219,14 @@ transform: rotate(30);padding-left: 10px;
   background-color: purple;
 
 }
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+  margin-left: -8px;
+  padding-left: 20px;
+}
 @media  (min-width:300) and (max-width:511){
   *{
     margin: 0px;
@@ -244,9 +252,9 @@ transform: rotate(30);padding-left: 10px;
     display: grid;
     grid-template-columns: 1fr;
   }
-  .grid3,#footer{
+  .grid2{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
   }
   .fle{
     padding: 0px;
