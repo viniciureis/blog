@@ -220,6 +220,26 @@ transform: rotate(30);padding-left: 10px;
 
 }
 @media  (min-width:300) and (max-width:511){
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .cabecalho nav li a{
+    font-size: 9px;
+    padding: 10px;
+    display: flex;
+
+  
+  
+  }
+  
+  .cabecalho{
+    margin-left: -9px;
+    padding: 0px;
+    width: 100vw;
+    height: 100px;
+  }
+
   .flex1{
     display: grid;
     grid-template-columns: 1fr;
