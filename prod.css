@@ -263,4 +263,23 @@ transform: rotate(30);padding-left: 10px;
   .margin{
     margin-bottom: 0px;
   }
+  .logo{
+    display: none;
+    
+    }
+    .header-menu{
+      font-size: 20px;
+      margin-top: -10px;
+      padding-top: -30px;
+     }
+     li{
+      font-size: 20px;
+      display: flex;
+      flex-direction: row;
+     }
+     ul{
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+     }
 }
