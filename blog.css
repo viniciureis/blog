@@ -500,11 +500,12 @@
       
       }
       .menu{
-        margin-top: -3px;
+        margin-top: -1px;
       }
       .cabecalho{
         margin-left: -50px;
         padding: 0px;
+        width: 100vw;
       }
       .grid3{
         display: grid;
