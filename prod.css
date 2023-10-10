@@ -219,3 +219,9 @@ transform: rotate(30);padding-left: 10px;
   background-color: purple;
 
 }
+@media  (min-width:300) and(max-width:511){
+  .flex1{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
