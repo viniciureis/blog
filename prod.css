@@ -259,4 +259,7 @@ transform: rotate(30);padding-left: 10px;
   .fle{
     padding: 0px;
   }
+  .margin{
+    margin-bottom: 0px;
+  }
 }
