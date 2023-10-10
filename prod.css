@@ -224,4 +224,8 @@ transform: rotate(30);padding-left: 10px;
     display: grid;
     grid-template-columns: 1fr;
   }
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
