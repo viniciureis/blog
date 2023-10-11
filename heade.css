@@ -278,6 +278,10 @@ ul,li{
   .fundo{
     height: 2000px;
   }
+  .flex{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   }
   @media(min-width:1500px){
  header, .cabecalho{
