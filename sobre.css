@@ -163,5 +163,8 @@ color: white;
 .solution{
   margin-top: 20px;
 }
-
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 }
