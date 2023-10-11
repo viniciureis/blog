@@ -139,4 +139,28 @@ background: linear-gradient(90deg,rgba(0,0,0,1)8%, rgba(0,0,0,0.8)50%, rgba(0,0,
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .header{
+    width: 100vw;
+  }
+  .cabecalho nav li a{
+    font-size: 9px;
+    padding: 10px;
+    display: flex;
+
+  
+  
+  }
+
+  .cabecalho{
+    margin-left: -10px;
+    padding: 0px;
+    width: 100vw;
+    height: 100px;
+  }
+
+  header{
+    width: 100vw
+  }
+
  }
