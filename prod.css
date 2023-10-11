@@ -163,7 +163,10 @@ background: linear-gradient(90deg,rgba(0,0,0,1)8%, rgba(0,0,0,0.8)50%, rgba(0,0,
     width: 100vw
   }
 .fle{
-  font-size: 10px;
+  font-size: 20px;
   padding-right: 0px;
+}
+.margin1{
+  margin-top: 130px;
 }
  }

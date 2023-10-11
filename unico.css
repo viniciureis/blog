@@ -337,7 +337,10 @@ color: white;
     display: none;
   }
   .fle{
-    font-size: 10px;
+    font-size: 20px;
     padding-right: 0px;
+  }
+  .margin1{
+    margin-top: 130px;
   }
 }
