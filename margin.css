@@ -95,7 +95,7 @@ button:hover{
        li{
         font-size: 20px;
         display: flex;
-        flex-direction: row;
+        
        }
        ul{
         display: flex;
@@ -142,7 +142,7 @@ button:hover{
       }
       .cabecalho nav li a{
         font-size: 9px;
-        padding: 10px;
+       
         display: flex;
     
       
@@ -163,6 +163,9 @@ button:hover{
         width: 100vw
       }
    
-    
+    .grid3{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
   
