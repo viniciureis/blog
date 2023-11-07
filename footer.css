@@ -8,8 +8,12 @@
 img{
     width: 820%;
 }
-@media (min-width:300) and(max-width:500){
+@media( min-width: 300px)and (max-width:500px){
     #footer,.grid3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .clientes2{
         display: grid;
         grid-template-columns: 1fr;
     }
