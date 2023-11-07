@@ -1,0 +1,16 @@
+#foote{
+    margin-top: 400px;
+}
+.clientes2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img{
+    width: 820%;
+}
+@media (min-width:300) and(max-width:500){
+    #footer,.grid3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
