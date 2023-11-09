@@ -406,6 +406,31 @@
   .cabecalho nav li a:hover{
     background-color: purple;
   }  
+  #pagina{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-size: 34px;
+    list-style: none;
+    margin-left: 500px;
+  }
+  #pagina :hover{
+    color: red;
+  
+  }
+  #paginali{
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+   
+  }
+  #paginali:hover{
+    background-color: blue;
+  }
+ 
+  
   
    @media(min-width:300px) and ( max-width:511px){
     .div{
