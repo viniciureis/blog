@@ -539,7 +539,16 @@
         width: 100vw
       }
    
-    
+      #pagina{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        font-size: 34px;
+        list-style: none;
+        margin-left: 0px;
+      }
   }
   
   
