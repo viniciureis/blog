@@ -17,4 +17,19 @@ img{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .header-menu{
+        font-size: 20px;
+        margin-top: -10px;
+        padding-top: -30px;
+       }
+       li{
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+       }
+       ul{
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+       }
 }
