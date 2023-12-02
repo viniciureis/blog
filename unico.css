@@ -126,6 +126,39 @@ footer{
   width: 98.1vw;
   margin-bottom: -20px;
 }
+.imm{
+  width: 12%;
+  padding-left: 60px;
+  margin-top: -20px;
+}
+.grd{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:-80px ;
+  font-size: 13px;
+  padding-left: 240px;
+  gap: 20px;
+}
+.buttoe{
+  width: 60%;
+ margin-top: 10px;
+  height: 50%;
+  background-color: green;
+  color: white;
+  border-radius: 7px;
+  border-color: green;
+}
+.whats{
+  background: linear-gradient( to right,#00cc00, rgb(117, 195, 117));
+  height: 50px;
+margin-left: 150px;padding-top: 10px;
+margin-right: 340px;
+border-radius: 20px;
+}
+.buttoe:hover{
+  background-color: blue;
+  border-color: blue;
+}
 .cabecalho{
   display: flex;
  justify-content: space-between;
