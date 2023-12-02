@@ -351,6 +351,11 @@ color: white;
   
   
   }
+  .whats{
+  background: linear-gradient( to right,#00cc00, rgb(117, 195, 117));
+  margin-left: 0px;
+  margin-right: 0px;
+  }
   .cabecalho{
     margin-left: -9px;
     padding: 0px;
