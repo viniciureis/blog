@@ -71,6 +71,7 @@ footer{
 .foto{
   width:100%;
   height: 350px;
+  border-radius: 30px;
 }
 .cabecalho{
   display: flex;
@@ -128,7 +129,7 @@ footer{
 }
 .imm{
   width:70%;
-margin-top: -45px;
+margin-top: -42px;
  
 }
 .grd{
@@ -350,6 +351,9 @@ color: white;
 
   
   
+  }
+  .zi{
+    font-size: 10px;
   }
   .whats{
   background: linear-gradient( to right,#00cc00, rgb(117, 195, 117));
