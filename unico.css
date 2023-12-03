@@ -355,6 +355,9 @@ color: white;
   .zi{
     font-size: 10px;
   }
+  .imm{
+    margin-top: -10px;
+  }
   .whats{
   background: linear-gradient( to right,#00cc00, rgb(117, 195, 117));
   margin-left: 0px;
