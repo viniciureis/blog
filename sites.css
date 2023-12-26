@@ -1,0 +1,28 @@
+.center{
+    text-align: center;
+background-color: blueviolet;
+    margin-left: -20px;
+    margin-top: -20px;
+   width: 99.2vw;
+   color: white;
+   padding-bottom: 1px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+}
+body{
+    background: white;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10px;
+}
+.eventos{
+    background-color: purple;
+    width: 25%;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: -20px;
+}
