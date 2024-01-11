@@ -167,4 +167,10 @@ color: white;
   display: grid;
   grid-template-columns: 1fr;
 }
+.button121{
+  display: none;
+}
+.video{
+  display: none;
+}
 }
