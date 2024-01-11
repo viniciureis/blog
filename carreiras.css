@@ -192,5 +192,10 @@ color: white;
   }
   .logo{
     display: none;
+
+  }
+  .back{
+    background-color: white;
+    padding-left: 10px;
   }
   }
