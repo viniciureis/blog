@@ -148,7 +148,7 @@ color: white;
   }
 .imga1{
   height: 290px;
-  width: 99vw;
+  width: 100vw;
 }
 .flex{
   display: flex;
@@ -175,5 +175,11 @@ color: white;
 }
 .fonte3{
   margin-top: 30px;
+}
+.gray{
+  width: 100vw;
+}
+footer{
+  width: 100vw;
 }
 }
