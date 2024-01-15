@@ -198,4 +198,7 @@ color: white;
     background-color: white;
     padding-left: 10px;
   }
+  header{
+    background-color: none;
+  }
   }
