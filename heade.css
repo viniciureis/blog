@@ -284,6 +284,7 @@ ul,li{
   }
   header{
     height: 100px;
+    width: 100vw;
   }
   }
   @media(min-width:1500px){
