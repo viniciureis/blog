@@ -26,3 +26,10 @@ body{
     margin-left: 50px;
     margin-bottom: -20px;
 }
+
+@media (min-width: 300px ) and(max-width:500px){
+    .flex{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
