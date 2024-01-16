@@ -290,6 +290,9 @@ ul,li{
     padding-left: 30px;
     padding-right: 10px;
   }
+  .img1{
+    width: 50%;
+  }
   }
   @media(min-width:1500px){
  header, .cabecalho{
