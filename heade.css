@@ -286,6 +286,10 @@ ul,li{
     height: 100px;
     width: 100vw;
   }
+  p{
+    padding-left: 30px;
+    padding-right: 10px;
+  }
   }
   @media(min-width:1500px){
  header, .cabecalho{
