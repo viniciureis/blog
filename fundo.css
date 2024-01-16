@@ -56,7 +56,9 @@ h2{
   color: white;
 }
 .logo3{
-  width: 20%;
+  width: 30%;
+  gap: 0px;
+  padding-top: 20px;
 }
 .texto1{
   padding-left: 30px;
