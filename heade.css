@@ -13,6 +13,7 @@ p{
 gap: 30px;
 }body{
   font-family: 'Poppins';
+  background-color: whitesmoke;
 }
 .cabecalho{
   display: flex;
