@@ -1,6 +1,6 @@
 .header-bg {
 
-  width: 101.2%;
+  width: 101.7%;
   margin-left: -8px;
   }
   body{
@@ -201,10 +201,10 @@
       display: flex;
      justify-content: space-between;
      padding: 30px;
-     max-width: 1440px;
+     
      margin: 0 auto;
      margin-left: -8px;
-     width: 93.96vw;
+     width: 96.96vw;
      margin-top: -20px;
     }
     .cabecalho .logo{

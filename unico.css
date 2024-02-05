@@ -20,6 +20,7 @@
   text-decoration: none;
 
 }
+
 .cabecalho{
   display: flex;
  justify-content: space-between;
@@ -334,6 +335,12 @@ color: white;
 .cabecalho nav li a:hover{
   background-color: purple;
 
+}
+#ud li+li{
+  padding-top: 10px;
+}
+#ud ul li{
+  list-style-type: circle;
 }
 @media( min-width: 300px) and (max-width:500px) {
   #p{
