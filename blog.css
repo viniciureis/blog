@@ -1,21 +1,8 @@
-.header-bg {
 
-  width: 101.7%;
-  margin-left: -8px;
-  }
   body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  .header {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
-   margin-top: -10px;
-   background-color: black;
-  
-   
-  }
+
   .border1{
     padding: 10px;
     background-color: white;
@@ -36,15 +23,8 @@
    margin-right: -10px;
   }
   
-  .header-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding-right: 20px;
-    
-   
-  }
+ 
+
 
   .conte{
     text-align: center;
@@ -190,13 +170,7 @@
     body{
       background-color: rgba(128, 0, 128, 0.575);
     }
-    header{
-      background-color: black;
-    margin-left: -8px;
-    width: 96.5vw;margin-top: -10px;
-    height: 30px;
    
-    }
     .cabecalho{
       display: flex;
      justify-content: space-between;
@@ -204,7 +178,7 @@
      
      margin: 0 auto;
      margin-left: -8px;
-     width: 96.96vw;
+     width: 99.96vw;
      margin-top: -20px;
     }
     .cabecalho .logo{
@@ -306,8 +280,8 @@
 
   header{
     background-color: black;
-  margin-left: -8px;
-  width: 93.8vw;margin-top: -10px;
+
+  width: 100%;margin-top: -10px;
   text-decoration: none;
   }
 
@@ -463,11 +437,8 @@
        display: none;
        
        }
-       .header-menu{
-        font-size: 20px;
-        margin-top: -10px;
-        padding-top: -30px;
-       }
+      
+
        li{
         font-size: 20px;
         display: flex;
