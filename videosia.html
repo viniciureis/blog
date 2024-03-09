@@ -15,7 +15,7 @@
 </head>
 <body>
   <header class="cabecalho">
-    <a href=""> <img class="logo" src="imgs/carapple.webp" alt=" Logo da Cbersoftware" srcset=""></a>
+    <a href=""> <img class="logo" src="" alt=" Logo da Cbersoftware" srcset=""></a>
       <nav >
         <ul class="menu">
           
@@ -86,15 +86,51 @@
           </section>
 
           <section>
-            <div id="p">a</h2>
+            <div id="p"></h2>
        
           <p >
             Sora faz o mesmo, mas em vídeo. Em 3D.
             <br><br>
             Sora foi uma surpresa para quem acompanha o mundo da inteligência artificial, leu muitos artigos e quase entendeu alguns deles. O número de problemas associados à criação de vídeos coerentes é uma ordem de grandeza maior do que com imagens "simples"..
-        </p>
+      <br><br>
+      Até agora, tínhamos dois métodos principais de criação de vídeos com IA: AnimateDiff + ControlNet e Stable Video Diffusion.
+          </p>
           </section>
           
+          <section>
+            <div id="p"></h2>
+       
+          <p >
+            AnimateDiff usa modelos treinados para vídeos focados em movimento. Ele pode criar imagens e animá-las em 16 quadros por vez, mas quase sem supervisão. Com paciência você pode produzir muitas maravilhas, mas nada que ameace a pintura.
+            <br><br>
+            Utilizando ferramentas como ControlNet, OpenPose e outras, podemos extrair vetores de movimento de outros vídeos e aplicá-los em animações. Dá muito trabalho, mas em teoria basta fazer uma animação completa simulando o MotionCap sem precisar conectar bolas de pingue-pongue a outras.
+            <br><br>
+            Stable Video Diffusion é um modelo somente de vídeo capaz de produzir sinais TXT2VID e IMG2VID, ou seja, aceitando um prompt ou imagem como entrada. Os resultados são (ok, foram há seis meses) impressionantes.
+          </p>
+          </section>
+
+          
+          <section>
+            <div id="p"></h2>
+       
+          <p >
+            Ao contrário das tecnologias anteriores, que mal conseguiam acompanhar algumas dezenas de frames (25 e o SVD começa a carregar), Sora pode criar vídeos de um minuto.
+            <br><br>
+            O cascalho tem consistência completa, mesmo quando a permanência do objeto é alcançada, as coisas podem permanecer temporariamente desconhecidas para os outros e reaparecer. Isso é muito difícil para o modelo de difusão.
+            <br><br> 
+          </p>
+          </section>
+
+          <section>
+            <div id="p"></h2>
+       
+          <p >
+            O treinamento foi baseado no conceito patch, onde cada elemento do vídeo é tratado como um elemento individual, o que dá muito mais flexibilidade. Sora não é um gerador de pixels, é um gerador de mundos que tenta manter a consistência e só então os renderiza em imagens.
+            <br> <br>
+            Um fenômeno não planejado notado depois que Sora começou a fazer vídeos é que ele desenvolveu vários modelos internos de simulação de física por conta própria. Dinâmica de fluidos, gravidade, luz, radiação, Sora aprendeu tudo sozinho estudando os vídeos que utilizou em seus exercícios e as imagens que recebeu.
+          </p>
+          </section>
+
 
 
          
