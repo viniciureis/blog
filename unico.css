@@ -64,6 +64,9 @@ text-decoration: none;
 ul,li{
   list-style: none;
 }
+.fore{
+  font-size: 3rem;
+}
 
 footer{
  margin-bottom: -20px;
